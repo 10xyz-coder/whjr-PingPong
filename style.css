@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Inconsolata:wght@500&family=Roboto:wght@300&display=swap');
+
+body {
+  background: url(background1.jpg);
+  font-family: 'Fredoka';
+}
+
+h1 {
+  background-color: rgb(80, 0, 120);
+  padding: 13px !important;
+  font-size: 40px !important;
+}
