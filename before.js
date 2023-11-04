@@ -22,7 +22,9 @@ window.addEventListener('resize', function() {
 });
 
 function preload() {
-  console.log('test1')
+  console.log('test1');
+  missed_audio = loadSound('missed.wav');
+  hit_audio = loadSound('ball_touch_paddel.wav');
 }
 
 function setup() {

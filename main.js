@@ -80,7 +80,7 @@ function reset(){
    ball.y = height/2+100;
    ball.dx=4;
    ball.dy =3;
-   
+   missed_audio.play()
 }
 
 
@@ -123,6 +123,7 @@ function move(){
   if (ball.y >= paddle1Y&& ball.y <= paddle1Y + paddle1Height) {
     ball.dx = -ball.dx+1.5;
     playerscore++;
+    hit_audio.play();
   }
   else{
     pcscore++;
